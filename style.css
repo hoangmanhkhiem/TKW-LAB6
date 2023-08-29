@@ -1,0 +1,48 @@
+html{
+    font-family: HP-Hobo, monospace;
+    font-size: 20px;
+}
+
+.header{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 120px;
+    margin: -10px;
+    background-color: rgb(209, 248, 32);
+    font-size: 60px;
+
+}
+.flex-flowContent{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.section1{
+    background-color: rgb(98, 117, 106);
+    justify-content: left;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: -10px;
+    padding: 0px 5px;
+    padding-bottom: 532px;
+    width: 30%;
+}
+.section2{
+    padding:0px 10px;
+    background-color: rgb(232, 241, 213);
+}
+.section3{
+    background-color: rgb(98, 117, 106);
+    margin-right: -10px;
+    width: 30%;
+}
+div.section1>a{
+    background-color: pink;
+    margin:20px 0px -15px 0px;
+    padding: 0px 0px 10px 15px;
+}
+footer{
+    text-align: center;
+    color: cyan;
+    background-color: black;
+    margin: -16px;
+}
